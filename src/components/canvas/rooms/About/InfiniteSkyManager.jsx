@@ -346,13 +346,13 @@ const IntroMilestone = ({ z, scrollProgressRef }) => {
             <Text
                 ref={titleRef}
                 position={[0, 5, 0.1]}
-                fontSize={0.8}
+                fontSize={0.55}
                 color="#1a1a1a"
                 anchorX="center"
                 anchorY="middle"
                 font="/fonts/RubikScribble-Regular.ttf"
             >
-                TOMASZ SZMAJDA
+                SRI VENKATA PRAVEEN MEDIDA
             </Text>
 
             {/* Subtitle - Brand (spreads right) */}
@@ -365,7 +365,7 @@ const IntroMilestone = ({ z, scrollProgressRef }) => {
                 anchorY="middle"
                 font="/fonts/CabinSketch-Regular.ttf"
             >
-                (ITOM)
+                (PRAVEEN)
             </Text>
 
             {/* Avatar on cloud - floating + spreads up-left */}
