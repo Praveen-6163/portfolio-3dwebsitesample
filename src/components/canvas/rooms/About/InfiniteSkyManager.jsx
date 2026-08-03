@@ -275,9 +275,9 @@ const IntroMilestone = ({ z, scrollProgressRef }) => {
     const baseY = 2;
 
     // Calculate aspect ratio
-    // LEGACY FIX: Use original dimensions (2816x1536) to prevent stretching
-    const legacyAspectRatio = 2816 / 1536; 
-    const avatarWidth = 6; // Zwiększony rozmiar awatara na chmurce
+    // LEGACY FIX: Use original dimensions (1024x1024) to prevent stretching
+    const legacyAspectRatio = 1.0; 
+    const avatarWidth = 4.5; // Adjusted size for square avatar
     const avatarHeight = avatarWidth / legacyAspectRatio;
 
     // Animation: floating + spread apart when close
